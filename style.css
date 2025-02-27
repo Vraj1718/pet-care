@@ -336,7 +336,7 @@ nav {
 }
 
 .container1 .tranding-slider {
-   transition: all 0s 1s linear !important;
+  transition: all 0s 1s linear !important;
   height: 35rem;
   padding: 2rem 0;
   position: relative;
@@ -652,7 +652,10 @@ a {
   .nav-links li {
     padding: 0.5em 0;
   }
-
+  .nav-links.active ul {
+    display: flex;
+    flex-direction: column;
+  }
   .mobile-nav-toggle {
     display: block;
   }
