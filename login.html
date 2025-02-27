@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Care - Login/Register</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css" />
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+       <div class="container">
+      <div class="form-container">
+        <div class="form-box login active">
+          <h2>Login</h2>
+          <form id="loginForm">
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" required />
+            </div>
+            <button type="submit" class="btn">Login</button>
+          </form>
+          <p class="switch-form">
+            Don't have an account? <a href="#" id="showRegister">Register</a>
+          </p>
+        </div>
+        <div class="form-box register">
+          <h2>Register</h2>
+          <form id="registerForm">
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Full Name" required />
+            </div>
+            <div class="input-group">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" required />
+            </div>
+            <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Confirm Password" required />
+            </div>
+            <button type="submit" class="btn">Register</button>
+          </form>
+          <p class="switch-form">
+            Already have an account? <a href="#" id="showLogin">Login</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

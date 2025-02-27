@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Foodies</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">Pet Foodies</h1>
+
+            <nav class="navigation">
+                <ul class="nav-tabs">
+                    <li class="nav-tab active" data-category="all">ALL</li>
+                    <li class="nav-tab" data-category="cat">CAT</li>
+                    <li class="nav-tab" data-category="dog">DOG</li>
+                    <li class="nav-tab" data-category="bird">BIRD</li>
+                </ul>
+            </nav>
+
+            <button class="shop-btn">
+                <span>SHOP NOW</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+            </button>
+
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <div class="products-container">
+            <!-- Product 1 -->
+            <div class="product-card" data-category="dog">
+                <div class="product-image">
+                    <img src="images/dog_chocolate.jpg" alt="Fresh Kisses Dog Treats" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card" data-category="dog">
+                <div class="product-badge new">New</div>
+                <div class="product-image">
+                    <img src="images/dog_food.png" alt="Dog Food Container" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card" data-category="cat">
+                <div class="product-image">
+                    <img src="images/cat_chocolate.jpg" alt="Pulsitos Cat Treats" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card" data-category="dog">
+                <div class="product-badge sold">Sold</div>
+                <div class="product-image">
+                    <img src="images/dog_food.png" alt="Butcher's Dog Food" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+
+            <!-- Additional Products -->
+            <div class="product-card" data-category="cat">
+                <div class="product-badge new">New</div>
+                <div class="product-image">
+                    <img src="images/cat_food.jpg" alt="Premium Cat Food" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="bird">
+                <div class="product-image">
+                    <img src="images/cat_food.jpg" alt="Bird Seed Mix" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="bird">
+                <div class="product-badge new">New</div>
+                <div class="product-image">
+                    <img src="images/cat_chocolate.jpg" alt="Bird Treats" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="cat">
+                <div class="product-image">
+                    <img src="images/cat_chocolate.jpg" alt="Cat Milk" />
+                </div>
+                <div class="product-info">
+                    <h2 class="product-title">Grey Hoodie</h2>
+                    <div class="rating">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="score">5.0</span>
+                    </div>
+                    <div class="price">$18.00</div>
+                </div>
+                <div class="actions">
+                    <button class="add-to-cart">ADD TO CART</button>
+                    <button class="favorite">♡</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Cart Modal -->
+        <div class="cart-modal">
+            <div class="cart-content">
+                <div class="cart-header">
+                    <h2>Your Cart</h2>
+                    <button class="close-cart">×</button>
+                </div>
+                <div class="cart-items">
+                    <!-- Cart items will be added dynamically -->
+                </div>
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-amount">$0.00</span>
+                </div>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Pet Foodies</h3>
+                <p>Premium pet food for your beloved companions.</p>
+                <p>© 2025 Pet Foodies. All rights reserved.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@petfoodies.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Address: 123 Pet Street, Animal City</p>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on new products and exclusive offers.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your Email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>

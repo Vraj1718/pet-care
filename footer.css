@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Playwrite DE Grund', system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.container {
+  width: 90%;
+
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  width: 1521px;
+  background-color: aliceblue;
+  position: relative;
+}
+.f-bgimg {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+
+  opacity: 0.2;
+  top: 50%;
+  left: 50%;
+  /* -ms-transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
+}
+.f-logo h2 {
+  margin-top: -40px;
+}
+.f-logoimg {
+  width: 100px;
+  height: 100px;
+}
+.f-img {
+  width: 100px;
+  height: 100px;
+}
+.soical-media i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.f-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.f-heading img {
+  width: 100px;
+  height: 100px;
+}
+
+.f-info {
+  display: flex;
+  justify-content: space-between;
+ margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+
+.f-info div  P,h2,a{
+margin-bottom: 10px;
+}
+
+.footer-input{
+  border:3px solid black;
+  width: 250px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.footer-btn{
+  margin-top: 15px;
+  width:150px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #ffe5cc;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
